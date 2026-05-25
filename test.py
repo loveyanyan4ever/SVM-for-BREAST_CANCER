@@ -117,8 +117,8 @@ def plot_confusion_matrix(y_test, y_pred, output_dir):
         annot=True,
         fmt="d",
         cmap="Blues",
-        xticklabels=["malignant 恶性", "benign 良性"],
-        yticklabels=["malignant 恶性", "benign 良性"]
+        xticklabels=["malignant", "benign"],
+        yticklabels=["malignant", "benign"]
     )
     plt.xlabel("Predicted Label")
     plt.ylabel("True Label")
